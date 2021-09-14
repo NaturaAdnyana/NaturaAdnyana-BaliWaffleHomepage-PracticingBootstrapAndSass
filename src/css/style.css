@@ -1,0 +1,127 @@
+body {
+  min-height: 500px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+header {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 10px #1b1b1b;
+          box-shadow: 0px 3px 10px #1b1b1b;
+}
+
+header nav .container .brand {
+  color: #e2004b;
+}
+
+header nav .container .brand :hover {
+  color: #8f0024;
+}
+
+header nav .container .nav-list ul .nav-item {
+  letter-spacing: 1px;
+}
+
+header nav .container .nav-list ul .nav-item :hover {
+  -webkit-box-shadow: 2px 2px 3px #2e2e2e, inset 2px 2px 3px black;
+          box-shadow: 2px 2px 3px #2e2e2e, inset 2px 2px 3px black;
+}
+
+main .jumbotron {
+  margin-top: 71px;
+  min-height: 100vh;
+}
+
+main .jumbotron .jumbotron-intro {
+  margin-top: 70px;
+}
+
+main .jumbotron .jumbotron-intro span {
+  color: #e2004b;
+}
+
+main .jumbotron .jumbotron-img {
+  width: 28vw;
+}
+
+main .about-section h1 {
+  color: #e2004b;
+}
+
+main .about-section p {
+  margin: auto;
+  max-width: 500px;
+}
+
+main .sp-menu-section {
+  background-color: #c2c1c0;
+  border-radius: 10px;
+}
+
+main .sp-menu-section h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+main .sp-menu-section .card {
+  padding: 0 10px;
+  border: none;
+  background-color: transparent;
+}
+
+main .sp-menu-section .card .card-img {
+  width: 70%;
+}
+
+main .sp-menu-section .button {
+  padding: 7px 50px;
+  border-radius: 20px;
+}
+
+footer {
+  min-height: 100px;
+}
+
+@media screen and (max-width: 990px) {
+  .nav-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+  i {
+    margin-left: 5px;
+  }
+  .nav-icon-fb::after {
+    margin-left: 5px;
+    content: 'Facebook';
+  }
+  .nav-icon-tw::after {
+    margin-left: 5px;
+    content: 'Twitter';
+  }
+  .nav-icon-ig::after {
+    margin-left: 5px;
+    content: 'Instagram';
+  }
+  main .jumbotron {
+    text-align: center;
+  }
+  main .jumbotron .jumbotron-intro {
+    margin: 0 0 30px 0;
+    position: relative;
+    z-index: 98;
+    text-shadow: 0px 0px 5px black;
+  }
+  main .jumbotron .jumbotron-intro h1 {
+    line-height: 1.5;
+  }
+  main .jumbotron .jumbotron-img {
+    width: 60vw;
+    margin-top: -80px;
+  }
+}

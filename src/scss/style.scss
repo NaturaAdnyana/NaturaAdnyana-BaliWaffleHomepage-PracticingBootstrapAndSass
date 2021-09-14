@@ -1,0 +1,119 @@
+$p-color: rgb(226, 0, 75);
+$warm-color: rgb(240, 96, 0);
+body {
+  min-height: 500px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+header {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+header{
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0px 3px 10px rgb(27, 27, 27);
+    nav .container{
+    .brand {
+      color: $p-color;
+      :hover{
+        color: rgb(143, 0, 36);
+      }
+    }
+    .nav-list ul{
+      .nav-item{
+        letter-spacing: 1px;
+        :hover{
+          box-shadow: 2px 2px 3px rgb(46, 46, 46), inset 2px 2px 3px black;
+        }
+      }
+    }
+  }
+}
+main{
+  .jumbotron{
+    margin-top: 71px;
+    min-height: 100vh;
+    .jumbotron-intro{
+      margin-top: 70px;
+      span{
+        color: $p-color;
+      }
+    }
+    .jumbotron-img{
+      width: 28vw;
+    }
+  }
+  .about-section{
+    h1{
+      color: $p-color;
+    }
+    p{
+      margin: auto;
+      max-width: 500px;
+    }
+  }
+  .sp-menu-section{
+    background-color: rgb(194, 193, 192);
+    border-radius: 10px;
+    h1{
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .card{
+      padding: 0 10px;
+      border: none;
+      background-color: transparent;
+      .card-img{
+        width: 70%;
+      }
+    }
+    .button{
+      padding: 7px 50px;
+      border-radius: 20px;
+    }
+  }
+}
+footer{
+  min-height: 100px;
+}
+
+@media screen and (max-width: 990px){
+  .nav-list{
+    margin-top: 20px;
+    text-align: center;
+  }
+  i{
+    margin-left: 5px;
+  }
+  .nav-icon-fb::after{
+    margin-left: 5px;
+    content: 'Facebook';
+  }
+  .nav-icon-tw::after{
+    margin-left: 5px;
+    content: 'Twitter';
+  }
+  .nav-icon-ig::after{
+    margin-left: 5px;
+    content: 'Instagram';
+  }
+  main{
+    .jumbotron{
+      text-align: center;
+      .jumbotron-intro{
+        margin: 0 0 30px 0;
+        position: relative;
+        z-index: 98;
+        text-shadow: 0px 0px 5px black;
+        h1{
+        line-height: 1.5;
+        }
+      }
+      .jumbotron-img{
+        width: 60vw;
+        margin-top: -80px;
+      }
+    }
+  }
+}
