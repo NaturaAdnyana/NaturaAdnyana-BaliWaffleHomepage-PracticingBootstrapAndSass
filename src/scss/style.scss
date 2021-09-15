@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,600&display=swap');
 $p-color: rgb(226, 0, 75);
 $warm-color: rgb(240, 96, 0);
+$default-font: 'Poppins', sans-serif;
 * {
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: $default-font;
 }
 body {
   min-height: 500px;
@@ -35,8 +37,11 @@ main{
     min-height: 100vh;
     .jumbotron-intro{
       margin-top: 70px;
-      span{
-        color: $p-color;
+      h1{
+        line-height: 1.5;
+        span{
+          color: $p-color;
+        }
       }
     }
     .jumbotron-img{

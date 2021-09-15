@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,600&display=swap");
 * {
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -41,7 +42,11 @@ main .jumbotron .jumbotron-intro {
   margin-top: 70px;
 }
 
-main .jumbotron .jumbotron-intro span {
+main .jumbotron .jumbotron-intro h1 {
+  line-height: 1.5;
+}
+
+main .jumbotron .jumbotron-intro h1 span {
   color: #e2004b;
 }
 
