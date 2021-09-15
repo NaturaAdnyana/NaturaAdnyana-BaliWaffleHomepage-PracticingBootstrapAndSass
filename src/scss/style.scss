@@ -1,11 +1,10 @@
 $p-color: rgb(226, 0, 75);
 $warm-color: rgb(240, 96, 0);
-body {
-  min-height: 500px;
+* {
   font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-header {
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+body {
+  min-height: 500px;
 }
 header{
   position: fixed;
